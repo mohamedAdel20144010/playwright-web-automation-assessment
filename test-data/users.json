@@ -1,7 +1,7 @@
 {
   "registrationUser": {
     "name": "Test User",
-    "email": "testuser1@mail.com",
+    "email": "test@mail.com",
     "password": "Test@123",
     "day": "10",
     "month": "5",
@@ -19,7 +19,7 @@
   },
   "existingUser": {
     "name": "Existing User",
-    "email": "testuser1@mail.com",
+    "email": "test@mail.com",
     "password": "Test@123"
   }
 }
