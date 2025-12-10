@@ -9,6 +9,7 @@ test('user can be created then log in', async ({ page }) => {
   const signupLoginPage = new SignupLoginPage(page);
   const accountCreatedPage = new AccountCreatedPage(page);
   const user = getRegistrationUser();
+  console.log('Registering user email:', user.email);
 
   await homePage.goto();
   await homePage.openSignupLogin();

@@ -7,7 +7,8 @@ export default defineConfig({
   reporter: 'html',
   use: {
     baseURL: 'https://www.automationexercise.com',
-    screenshot: 'only-on-failure',
+    screenshot: 'on',
+    trace: 'on',
   },
   projects: [
     {
