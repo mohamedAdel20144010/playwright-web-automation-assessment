@@ -1,0 +1,412 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for practice automation" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for practice automation" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - heading "Enter Account Information" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Title
+          - generic [ref=e47]:
+            - radio "Mr." [checked] [ref=e49]
+            - text: Mr.
+          - generic [ref=e51]:
+            - radio "Mrs." [ref=e53]
+            - text: Mrs.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - text: Name
+            - superscript [ref=e56]: "*"
+          - textbox "Name *" [ref=e57]: Test User
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - text: Email
+            - superscript [ref=e60]: "*"
+          - textbox "Email *" [disabled] [ref=e61]: test+1765373123484@mail.com
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - text: Password
+            - superscript [ref=e64]: "*"
+          - textbox "Password *" [ref=e65]: Test@123
+        - generic [ref=e66]:
+          - generic [ref=e67]: Date of Birth
+          - generic [ref=e68]:
+            - combobox [ref=e71]:
+              - option "Day"
+              - option "1"
+              - option "2"
+              - option "3"
+              - option "4"
+              - option "5"
+              - option "6"
+              - option "7"
+              - option "8"
+              - option "9"
+              - option "10" [selected]
+              - option "11"
+              - option "12"
+              - option "13"
+              - option "14"
+              - option "15"
+              - option "16"
+              - option "17"
+              - option "18"
+              - option "19"
+              - option "20"
+              - option "21"
+              - option "22"
+              - option "23"
+              - option "24"
+              - option "25"
+              - option "26"
+              - option "27"
+              - option "28"
+              - option "29"
+              - option "30"
+              - option "31"
+            - combobox [ref=e74]:
+              - option "Month"
+              - option "January"
+              - option "February"
+              - option "March"
+              - option "April"
+              - option "May" [selected]
+              - option "June"
+              - option "July"
+              - option "August"
+              - option "September"
+              - option "October"
+              - option "November"
+              - option "December"
+            - combobox [ref=e77]:
+              - option "Year"
+              - option "2021"
+              - option "2020"
+              - option "2019"
+              - option "2018"
+              - option "2017"
+              - option "2016"
+              - option "2015"
+              - option "2014"
+              - option "2013"
+              - option "2012"
+              - option "2011"
+              - option "2010"
+              - option "2009"
+              - option "2008"
+              - option "2007"
+              - option "2006"
+              - option "2005"
+              - option "2004"
+              - option "2003"
+              - option "2002"
+              - option "2001"
+              - option "2000"
+              - option "1999"
+              - option "1998"
+              - option "1997"
+              - option "1996"
+              - option "1995"
+              - option "1994"
+              - option "1993"
+              - option "1992"
+              - option "1991"
+              - option "1990" [selected]
+              - option "1989"
+              - option "1988"
+              - option "1987"
+              - option "1986"
+              - option "1985"
+              - option "1984"
+              - option "1983"
+              - option "1982"
+              - option "1981"
+              - option "1980"
+              - option "1979"
+              - option "1978"
+              - option "1977"
+              - option "1976"
+              - option "1975"
+              - option "1974"
+              - option "1973"
+              - option "1972"
+              - option "1971"
+              - option "1970"
+              - option "1969"
+              - option "1968"
+              - option "1967"
+              - option "1966"
+              - option "1965"
+              - option "1964"
+              - option "1963"
+              - option "1962"
+              - option "1961"
+              - option "1960"
+              - option "1959"
+              - option "1958"
+              - option "1957"
+              - option "1956"
+              - option "1955"
+              - option "1954"
+              - option "1953"
+              - option "1952"
+              - option "1951"
+              - option "1950"
+              - option "1949"
+              - option "1948"
+              - option "1947"
+              - option "1946"
+              - option "1945"
+              - option "1944"
+              - option "1943"
+              - option "1942"
+              - option "1941"
+              - option "1940"
+              - option "1939"
+              - option "1938"
+              - option "1937"
+              - option "1936"
+              - option "1935"
+              - option "1934"
+              - option "1933"
+              - option "1932"
+              - option "1931"
+              - option "1930"
+              - option "1929"
+              - option "1928"
+              - option "1927"
+              - option "1926"
+              - option "1925"
+              - option "1924"
+              - option "1923"
+              - option "1922"
+              - option "1921"
+              - option "1920"
+              - option "1919"
+              - option "1918"
+              - option "1917"
+              - option "1916"
+              - option "1915"
+              - option "1914"
+              - option "1913"
+              - option "1912"
+              - option "1911"
+              - option "1910"
+              - option "1909"
+              - option "1908"
+              - option "1907"
+              - option "1906"
+              - option "1905"
+              - option "1904"
+              - option "1903"
+              - option "1902"
+              - option "1901"
+              - option "1900"
+        - generic [ref=e78]:
+          - checkbox "Sign up for our newsletter!" [checked] [ref=e79]
+          - text: Sign up for our newsletter!
+        - generic [ref=e80]:
+          - checkbox "Receive special offers from our partners!" [checked] [ref=e81]
+          - text: Receive special offers from our partners!
+        - heading "Address Information" [level=2] [ref=e82]
+        - paragraph [ref=e83]:
+          - generic [ref=e84]:
+            - text: First name
+            - superscript [ref=e85]: "*"
+          - textbox "First name *" [ref=e86]: Test
+        - paragraph [ref=e87]:
+          - generic [ref=e88]:
+            - text: Last name
+            - superscript [ref=e89]: "*"
+          - textbox "Last name *" [ref=e90]: User
+        - paragraph [ref=e91]:
+          - generic [ref=e92]: Company
+          - textbox "Company" [ref=e93]: Test Co
+        - paragraph [ref=e94]:
+          - generic [ref=e95]:
+            - text: Address
+            - superscript [ref=e96]: "*"
+            - text: (Street address, P.O. Box, Company name, etc.)
+          - textbox "Address * (Street address, P.O. Box, Company name, etc.)" [ref=e97]: 123 Giza
+        - paragraph [ref=e98]:
+          - generic [ref=e99]: Address 2
+          - textbox "Address 2" [active] [ref=e100]: Apt 4
+        - paragraph [ref=e101]:
+          - generic [ref=e102]:
+            - text: Country
+            - superscript [ref=e103]: "*"
+          - combobox "Country *" [ref=e104]:
+            - option "India" [selected]
+            - option "United States"
+            - option "Canada"
+            - option "Australia"
+            - option "Israel"
+            - option "New Zealand"
+            - option "Singapore"
+        - paragraph [ref=e105]:
+          - generic [ref=e106]:
+            - text: State
+            - superscript [ref=e107]: "*"
+          - textbox "State *" [ref=e108]
+        - paragraph [ref=e109]:
+          - generic [ref=e110]:
+            - text: City
+            - superscript [ref=e111]: "*"
+          - textbox "City * Zipcode *" [ref=e112]
+        - paragraph [ref=e113]:
+          - generic [ref=e114]:
+            - text: Zipcode
+            - superscript [ref=e115]: "*"
+          - textbox [ref=e116]
+        - paragraph [ref=e117]:
+          - generic [ref=e118]:
+            - text: Mobile Number
+            - superscript [ref=e119]: "*"
+          - textbox "Mobile Number *" [ref=e120]
+        - button "Create Account" [ref=e121] [cursor=pointer]
+    - insertion [ref=e123]:
+      - generic [ref=e125]:
+        - generic "These are topics related to the article that might interest you" [ref=e126]: Discover more
+        - link "Software testing courses" [ref=e127] [cursor=pointer]:
+          - img [ref=e129]
+          - text: Software testing courses
+        - link "API testing services" [ref=e131] [cursor=pointer]:
+          - img [ref=e133]
+          - text: API testing services
+        - link "Website hosting plans" [ref=e135] [cursor=pointer]:
+          - img [ref=e137]
+          - text: Website hosting plans
+        - link "Automation practice website" [ref=e139] [cursor=pointer]:
+          - img [ref=e141]
+          - text: Automation practice website
+        - link "Automation consulting services" [ref=e143] [cursor=pointer]:
+          - img [ref=e145]
+          - text: Automation consulting services
+        - link "Software testing tutorials" [ref=e147] [cursor=pointer]:
+          - img [ref=e149]
+          - text: Software testing tutorials
+        - link "Website security solutions" [ref=e151] [cursor=pointer]:
+          - img [ref=e153]
+          - text: Website security solutions
+        - link "Testing" [ref=e155] [cursor=pointer]:
+          - img [ref=e157]
+          - text: Testing
+        - link "Test case management" [ref=e159] [cursor=pointer]:
+          - img [ref=e161]
+          - text: Test case management
+  - contentinfo [ref=e163]:
+    - generic [ref=e168]:
+      - heading "Subscription" [level=2] [ref=e169]
+      - generic [ref=e170]:
+        - textbox "Your email address" [ref=e171]
+        - button "" [ref=e172] [cursor=pointer]:
+          - generic [ref=e173]: 
+        - paragraph [ref=e174]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e178]: Copyright © 2021 All rights reserved
+  - link "" [ref=e179] [cursor=pointer]:
+    - /url: "#top"
+    - generic [ref=e180]: 
+  - insertion [ref=e182]:
+    - generic [ref=e184]:
+      - generic "These are topics related to the article that might interest you" [ref=e185]: Discover more
+      - link "Automation consulting" [ref=e186] [cursor=pointer]:
+        - img [ref=e188]
+        - text: Automation consulting
+      - link "Online learning platforms" [ref=e190] [cursor=pointer]:
+        - img [ref=e192]
+        - text: Online learning platforms
+      - link "Software testing tutorials" [ref=e194] [cursor=pointer]:
+        - img [ref=e196]
+        - text: Software testing tutorials
+      - link "API testing tools" [ref=e198] [cursor=pointer]:
+        - img [ref=e200]
+        - text: API testing tools
+      - link "Test case templates" [ref=e202] [cursor=pointer]:
+        - img [ref=e204]
+        - text: Test case templates
+      - link "RPA tools" [ref=e206] [cursor=pointer]:
+        - img [ref=e208]
+        - text: RPA tools
+      - link "Test automation tools" [ref=e210] [cursor=pointer]:
+        - img [ref=e212]
+        - text: Test automation tools
+      - link "Software Testing" [ref=e214] [cursor=pointer]:
+        - img [ref=e216]
+        - text: Software Testing
+      - link "Website hosting plans" [ref=e218] [cursor=pointer]:
+        - img [ref=e220]
+        - text: Website hosting plans
+      - link "Workflow automation platforms" [ref=e222] [cursor=pointer]:
+        - img [ref=e224]
+        - text: Workflow automation platforms
+  - insertion [ref=e226]:
+    - iframe [ref=e228]:
+      - iframe [ref=f29e1]:
+        - generic [ref=f30e1]:
+          - generic [ref=f30e2]:
+            - generic:
+              - img [ref=f30e6] [cursor=pointer]
+              - button [ref=f30e8] [cursor=pointer]:
+                - img [ref=f30e9]
+          - iframe [ref=f30e16]:
+            - generic [active] [ref=f34e1]:
+              - generic [ref=f34e5]:
+                - button [ref=f34e6] [cursor=pointer]:
+                  - img [ref=f34e7]
+                - button [ref=f34e9] [cursor=pointer]:
+                  - img [ref=f34e10]
+              - generic [ref=f34e14] [cursor=pointer]:
+                - img [ref=f34e15]
+                - img [ref=f34e17]
+                - generic [ref=f34e18]: Geosolutions' geotechnical expertise is improving safety in AU.
+                - generic [ref=f34e19]: FIND OUT MORE
+```

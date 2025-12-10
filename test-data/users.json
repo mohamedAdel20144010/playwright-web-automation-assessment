@@ -1,25 +1,25 @@
 {
   "registrationUser": {
     "name": "Test User",
-    "email": "test@mail.com",
+    "email": "testuser1@mail.com",
     "password": "Test@123",
     "day": "10",
     "month": "5",
     "year": "1990",
     "firstName": "Test",
     "lastName": "User",
-    "company": "Test Co",
-    "address1": "123 Giza",
+    "company": "test Co",
+    "address1": "123 Main Street",
     "address2": "Apt 4",
-    "country": "Egypt",
-    "state": "cairo",
-    "city": "Giza",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
     "zipcode": "12345",
     "mobileNumber": "1234567890"
   },
   "existingUser": {
     "name": "Existing User",
-    "email": "test@mail.com",
+    "email": "testuser1@mail.com",
     "password": "Test@123"
   }
 }
